@@ -12,8 +12,8 @@ BUILD_HARNESS_TEMPLATES_MAKEFILE_GUARD := included
 
 export SHELL = /bin/bash
 export PWD = $(shell pwd)
-export BUILD_HARNESS_ORG ?= vdigitalpartners
-export BUILD_HARNESS_PROJECT ?= onekloud-auto-docs
+export BUILD_HARNESS_ORG ?= recruiting-tech
+export BUILD_HARNESS_PROJECT ?= terraform-auto-docs
 export BUILD_HARNESS_DOCKER_IMAGE ?= $(BUILD_HARNESS_ORG)/$(BUILD_HARNESS_PROJECT)
 export BUILD_HARNESS_BRANCH ?= main
 export BUILD_HARNESS_CLONE_URL ?= https://github.com/$(BUILD_HARNESS_ORG)/$(BUILD_HARNESS_PROJECT).git
